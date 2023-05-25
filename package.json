@@ -1,0 +1,18 @@
+{
+  "name": "sitemate",
+  "version": "1.0.0",
+  "description": "Sitemate Code Challenge",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "services/**"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ebin joshy",
+  "license": "ISC",
+  "repository": "git@github.com:nambii/sitemate.git"
+}
