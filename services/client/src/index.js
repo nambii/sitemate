@@ -106,15 +106,5 @@ function displayMenu() {
   });
 }
 
-function createRequest(method, url, data) {
-  return {
-    method: method,
-    url: url,
-    body: data,
-    headers: {
-      "Content-Type": "application/json",
-    },
-  };
-}
 
 displayMenu();
